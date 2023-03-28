@@ -10,7 +10,14 @@
 <body>
 
     <div class="container">
+
+        <!--Reloj Analogico-->
         <div class="clock">
+
+            <div class="needle" id="sc" style="--clr:#04fc43;"><i></i></div>
+            <div class="needle needle2" id="mn" style="--clr:#fee800;"><i></i></div>
+            <div class="needle needle3" id="hr" style="--clr:#ff2972;"><i></i></div>
+
             <span style="--i:1;"><b>1</b></span>
             <span style="--i:2;"><b>2</b></span>
             <span style="--i:3;"><b>3</b></span>
@@ -25,6 +32,14 @@
             <span style="--i:12;"><b>12</b></span>
         </div>
 
+        <!--Reloj digital-->
+
+        <div id="time">
+            <div id="hours" style="--clr:#ff2972;">00</div>
+            <div id="minutes" style="--clr:#fee800;">00</div>
+            <div id="seconds" style="--clr:#04fc43;">00</div>
+            <div id="ampm">PM</div>
+        </div>
     </div>
 
 
